@@ -8,6 +8,11 @@ ol {
 .intro {
   font-style: italic;
   color: #990000;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  margin-left: -19px;
+  text-indent: 20px;
 }
 .header {
   text-align: center;
@@ -47,5 +52,28 @@ ol {
 }
 .main {
   margin-left: 70px;
-  margin-top: --mainMargin;
+
+}
+
+
+.box1 {
+  width: 68%;
+  float: left;
+}
+.box2 {
+  width: 28.5%;
+  float: right;
+}
+.box3 {
+  float: left;
+  width: 68%;
+}
+
+.box4 {
+  float: left;
+  width: 68%;
+}
+.box5 {
+  float: right;
+  width: 28.5%;
 }
